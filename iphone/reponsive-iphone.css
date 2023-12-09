@@ -1,11 +1,14 @@
 @media screen and (max-width: 1001px) {
+  header {
+    /* max-width: 100%; */
+  }
   .language-deckstop {
     display: none !important;
   }
-  .user{
+  .user {
     display: none !important;
   }
-  .header-menu-deckstop{
+  .header-menu-deckstop {
     display: none;
   }
   .toggle {
@@ -29,7 +32,6 @@
   .header-link-wrapper {
     order: 3;
   }
-
 }
 @media screen and (max-width: 769px) {
   .btn-mobile {
