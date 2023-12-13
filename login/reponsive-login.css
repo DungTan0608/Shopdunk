@@ -33,6 +33,7 @@
     display: none;
   }
   .login-form {
+    /* text-align: center; */
     display: block;
   }
   .login {
@@ -60,4 +61,4 @@
   .follow-us {
     width: 98%;
   }
-} 
+}
