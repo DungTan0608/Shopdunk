@@ -182,8 +182,6 @@ header {
   vertical-align: middle;
 }
 .reversed span a {
-  /* display: flex; */
-  /* text-align: right; */
   justify-content: right;
   color: #0066cc;
 }
@@ -200,12 +198,17 @@ header {
   padding: 0 5px;
   font-size: 13px;
 }
-.directional-list li{
+.directional-list li {
   font-size: 13px;
+}
+.button-forgot {
+  margin-top: 16px;
+}
+.button-forgot a {
+  color: #0066cc;
 }
 /* footer */
 footer {
-  margin-top: 500px;
   background-color: #1d1d1f;
   position: relative;
   left: 0;
@@ -230,8 +233,6 @@ footer {
   line-height: 24px;
   color: #d2d2d7;
   padding: 8px 0px;
-  /* word-wrap: break-word; */
-  /* white-space: pre-line; */
 }
 .footer-block:first-child {
   width: 30%;
