@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- linl font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:opsz,wght@6..12,200&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato&family=Nunito+Sans:opsz,wght@6..12,200&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Thư viện carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"
+      integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link slick carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link css -->
+    <link rel="stylesheet" href="./product.css" />
+    <link rel="stylesheet" href="./product-reponsive.css" />
+    <title>Product</title>
+  </head>
+  <body onload="productLoadPage()">
+    <!-- header -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!-- Header deckstop -->
+            <div
+              class="header-deckstop d-flex justify-content-between align-items-center"
+            >
+              <!-- logo-decksto -->
+              <div class="header-logo">
+                <a href="./index.html"
+                  ><img
+                    src="https://shopdunk.com/images/thumbs/0012445_Logo_ShopDunk.png"
+                    alt=""
+                /></a>
+              </div>
+
+              <div class="toggle">
+                <i class="bi bi-list"></i>
+                <div class="language-mobile">
+                  <a href=""
+                    ><img src="https://shopdunk.com/images/flags/vn.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="https://shopdunk.com/images/flags/us.png" alt=""
+                  /></a>
+                </div>
+              </div>
+
+              <!-- menu-deckstop -->
+              <div class="header-menu-deckstop">
+                <ul class="menu-deckstop d-flex">
+                  <li class="menu-item-deckstop">
+                    <a href="../iphone/iphone.html">IPhone</a>
+                  </li>
+                  <li class="menu-item-deckstop"><a href="">iPad</a></li>
+                  <li class="menu-item-deckstop"><a href="">Mac</a></li>
+                  <li class="menu-item-deckstop"><a href="">Watch</a></li>
+                  <li class="menu-item-deckstop"><a href="">Âm thanh</a></li>
+                  <li class="menu-item-deckstop"><a href="">Phụ kiện</a></li>
+                  <li class="menu-item-deckstop seven">
+                    <a href="">Dịch Vụ</a>
+                    <div class="child-menu">
+                      <ul class="child-menu-content">
+                        <li><a href="">Bảo hành uỷ quyền apple</a></li>
+                        <li><a href="">Trả góp</a></li>
+                        <li><a href="">Thu cũ đổi mới</a></li>
+                        <li><a href="">WorkShop</a></li>
+                        <li><a href="">MBTI</a></li>
+                        <li><a href="">Sim thẻ</a></li>
+                        <li><a href="">Apple Care</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-item-deckstop eight">
+                    <a href="">Tin tức</a>
+                  </li>
+                  <li class="menu-item-deckstop nine">
+                    <a href="">Khuyến mại</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- link-wrapper -->
+              <div class="header-link-wrapper d-flex">
+                <div class="menu-link search">
+                  <a href="" class="icon"><i class="bi bi-search"></i></a>
+                </div>
+
+                <div class="menu-link cart">
+                  <a href="" class="icon"><i class="bi bi-bag"></i></a>
+                </div>
+
+                <div class="menu-link user">
+                  <a href="./login/login.html" class="icon"
+                    ><i class="bi bi-person"></i
+                  ></a>
+                </div>
+
+                <div class="menu-link language-deckstop d-flex">
+                  <a href=""
+                    ><img src="https://shopdunk.com/images/flags/vn.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="https://shopdunk.com/images/flags/us.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Header-mobile -->
+            <!-- <div class="row"> -->
+            <div class="col-12">
+              <div class="header-mobile position-relative">
+                <!-- <div class="header-menu-mobile d-none">
+                  <ul class="menu-mobile d-flex">
+                    <li class="menu-item-mobile"><a href="">IPhone</a></li>
+                    <li class="menu-item-mobile"><a href="">iPad</a></li>
+                    <li class="menu-item-mobile"><a href="">Mac</a></li>
+                    <li class="menu-item-mobile"><a href="">Watch</a></li>
+                    <li class="menu-item-mobile"><a href="">Âm thanh</a></li>
+                    <li class="menu-item-mobile"><a href="">Phụ kiện</a></li>
+                  </ul>
+                </div> -->
+
+                <!-- <div class="menu-toggle"> -->
+                <ul class="menu-toggle-mb">
+                  <li class="toggle-item-mobile">
+                    <a href="">Tạo Tài Khoản Ngay</a>
+                  </li>
+                  <li class="toggle-item-mobile">
+                    <a href="">Đăng Nhập</a>
+                  </li>
+                  <li class="toggle-item-mobile"><a href="">Dịch Vụ</a></li>
+                  <li class="toggle-item-mobile"><a href="">Tin Tức</a></li>
+                  <li class="toggle-item-mobile">
+                    <a href="">Khuyến Mãi</a>
+                  </li>
+                  <li class="toggle-item-mobile">
+                    <a href="">Ngôn Ngữ</a>
+                  </li>
+                </ul>
+                <!-- </div> -->
+              </div>
+            </div>
+
+            <!-- </div> -->
+            <!--  -->
+          </div>
+        </div>
+      </div>
+      <div class="header-menu-mobile d-none">
+        <div class="container">
+          <ul class="menu-mobile d-flex">
+            <li class="menu-item-mobile"><a href="">IPhone</a></li>
+            <li class="menu-item-mobile"><a href="">iPad</a></li>
+            <li class="menu-item-mobile"><a href="">Mac</a></li>
+            <li class="menu-item-mobile"><a href="">Watch</a></li>
+            <li class="menu-item-mobile"><a href="">Âm thanh</a></li>
+            <li class="menu-item-mobile"><a href="">Phụ kiện</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- product -->
+    <div class="product">
+      <div class="container">
+        <div class="row" id="products-item">
+          <!-- <div class="col-lg-6 col-12">
+            <div class="picture">
+              <div class="product-img">
+                <a href="">
+                  <img
+                    src="https://shopdunk.com/images/thumbs/0019796_black.jpeg"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="product-slick-track">
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <img
+                      src="https://shopdunk.com/images/thumbs/0019796_black_550.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://shopdunk.com/images/thumbs/0019797_black_550.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://shopdunk.com/images/thumbs/0019799_black_550.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://shopdunk.com/images/thumbs/0019800_black_550.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://shopdunk.com/images/thumbs/0019801_black_550.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://shopdunk.com/images/thumbs/0019802_black_550.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://shopdunk.com/images/thumbs/0019803_black_550.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://shopdunk.com/images/thumbs/0019804_black_550.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://shopdunk.com/images/thumbs/0019805_black_550.jpeg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-6 col-12">
+            <div class="info-product">
+              <div class="wrap-info">
+                <div class="product-name">
+                  <h1>iPhone 15 128 GB</h1>
+                </div>
+                <div class="all-content-rv">
+                  <div class="review-product d-flex">
+                    <div class="product-review-box">
+                      <div class="rating">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                    <div class="product-no-review">
+                      <a href="" class="evaluate">Đánh giá</a>
+                    </div>
+                    <div class="product-notable">
+                      <i class="bi bi-plus-circle-fill"></i>
+                      <span>So sánh</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="price d-flex">
+                <div class="product-price">
+                  <span>21.790.000đ</span>
+                </div>
+                <div class="old-product-price">
+                  <span>24.990.000đ</span>
+                </div>
+              </div>
+
+              <div class="attributes">
+                <label for="">Dung lượng</label>
+                <div class="product-attributes">
+                  <ul class="dung-luong d-flex">
+                    <li class="phien-ban"><span>128 GB</span></li>
+                    <li class="phien-ban"><span>256 GB</span></li>
+                    <li class="phien-ban"><span>512 GB</span></li>
+                  </ul>
+                </div>
+                <label for="" class="collor"> Màu sắc:</label>
+                <ul class="product-collor d-flex">
+                  <li class="color-pr"><div class="black"></div></li>
+                  <li class="color-pr"><div class="pink"></div></li>
+                  <li class="color-pr"><div class="yellow"></div></li>
+                  <li class="color-pr"><div class="green"></div></li>
+                  <li class="color-pr"><div class="blue"></div></li>
+                </ul>
+              </div>
+
+              <div class="short-des" id="shortDes">
+                <p class="title ud"><i class="bi bi-gift"></i> Ưu đãi</p>
+                <div class="short-description position-relative">
+                  <p>
+                    <span style="color: #e03e2d"
+                      ><strong>I. Ưu đãi thanh toán</strong></span
+                    >
+                  </p>
+                  <p>
+                    <span
+                      ><i class="bi bi-check-circle-fill"></i> Giảm tới
+                      <strong>600.000đ</strong> Qua cổng thanh toán
+                      <span style="color: #007edb">(Xem chi tiết)</span></span
+                    >
+                  </p>
+                  <p>
+                    <span
+                      ><i class="bi bi-check-circle-fill"></i> Giảm tới
+                      <strong>2.000.000đ</strong> Khi thanh toán qua thẻ tín
+                      dụng
+                      <span style="color: #007edb">(Xem chi tiết)</span></span
+                    >
+                  </p>
+                  <p>
+                    <span style="color: #e03e2d"
+                      ><strong>II. Ưu đãi trả góp (1/12 - 31/12)</strong></span
+                    >
+                  </p>
+                  <p>
+                    <span
+                      ><i class="bi bi-check-circle-fill"></i> Giảm tới
+                      <strong>600.000đ</strong> Qua cổng thanh toán
+                      <span style="color: #007edb">(Xem chi tiết)</span></span
+                    >
+                  </p>
+
+                  <p>
+                    <span style="color: #e03e2d"
+                      ><strong
+                        >III. Ưu đãi mua kèm iPhone 15 series</strong
+                      ></span
+                    >
+                  </p>
+                  <p>
+                    <span
+                      ><img src="../img/best-offer.gif" alt="" /> Mua kèm giảm
+                      sâu sự kiện Apple
+                      <span style="color: #007edb">(Xem chi tiết)</span></span
+                    >
+                  </p>
+
+                  <p>
+                    <span
+                      ><img src="../img/best-offer.gif" alt="" /> Mua kèm giảm
+                      sâu sự kiện Non Apple
+                      <span style="color: #007edb">(Xem chi tiết)</span></span
+                    >
+                  </p>
+
+                  <p>
+                    <span
+                      ><i class="bi bi-check-circle-fill"></i> Giảm 10% Khi mua
+                      bảo hành tiêu chuẩn mở rộng (6 tháng - 12 tháng)
+                    </span>
+                  </p>
+
+                  <p>
+                    <span
+                      ><i class="bi bi-check-circle-fill"></i> Giảm 20% Khi mua
+                      bảo hành kim cương Bảo hành VIP (Rơi vỡ, vào nước)
+                    </span>
+                  </p>
+
+                  <p>
+                    <span style="color: #e03e2d"
+                      ><strong
+                        >IV. Ưu đãi cán bộ công nhân viên Viettinbank,
+                        Vietcombank, VinFast</strong
+                      ></span
+                    >
+                  </p>
+
+                  <p>
+                    <span
+                      ><i class="bi bi-check-circle-fill"></i> Tặng voucher giảm
+                      giá
+                      <strong>500.000đ</strong>
+                    </span>
+                  </p>
+                  
+                </div>
+              </div>
+
+              <div class="product-button">
+                <div class="add-to-cart">
+                  <button class="buy-now">Mua ngay</button>
+                </div>
+                <div class="all-btn-button d-flex">
+                  <div class="btn-tra-gop">
+                    <button class="tra-gop">Trả góp</button>
+                  </div>
+                  <div class="btn-thu-cu">
+                    <button class="thu-cu">Thu cũ đổi mới</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-policy">
+                <div class="prd-policy">
+                  <ul class="elementor-icon-item-list">
+                    <li class="element-item">
+                      <i class="bi bi-check-circle-fill"></i>
+                      Bộ sản phẩm gồm: Hộp, Sách hướng dẫn, Cây lấy sim, Cáp
+                      Type C
+                    </li>
+                    <li class="element-item">
+                      <i class="bi bi-check-circle-fill"></i>
+                      Bảo hành chính hãng 1 năm
+                      <span style="color: #007edb">
+                        <a href="">(Chi tiết)</a>
+                      </span>
+                    </li>
+                    <li class="element-item">
+                      <i class="bi bi-check-circle-fill"></i>
+                      Giao hàng nhanh toàn quốc
+                      <span style="color: #007edb">
+                        <a href="">(Chi tiết)</a>
+                      </span>
+                    </li>
+                    <li class="element-item">
+                      <i class="bi bi-check-circle-fill"></i>
+                      Gọi đặt mua
+                      <span style="color: #007edb">
+                        <a href="">(Chi tiết)</a>
+                      </span>
+                      (8:00 - 22:00)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- phu kien -->
+    <div class="all-cross-sel">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title-phu-kien">
+              <strong>Gợi ý phụ kiện đi kèm</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="your-class d-flex justify-content-around responsive">
+              <div>
+                <div class="product-item">
+                  <div class="pk-item-picture">
+                    <a href="">
+                      <img
+                        src="https://shopdunk.com/images/thumbs/0019158_cuong-luc-apple-iphone-15-series-zeelot-solidleek_240.jpeg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="pk-item-info">
+                    <span
+                      ><a href=""
+                        >Cường lực Apple iPhone 15 series Zeelot Solidleek</a
+                      ></span
+                    >
+                    <div class="pk-price">
+                      <span class="price gia-ud">350.000đ</span>
+                      <span class="price gia-goc">390.000đ</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="product-item">
+                  <div class="pk-item-picture">
+                    <a href="">
+                      <img
+                        src="https://shopdunk.com/images/thumbs/0021877_cuong-luc-camera-uniq-optix-for-iphone-15-iphone-15-plus_240.jpeg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="pk-item-info">
+                    <span
+                      ><a href=""
+                        >Cường lực Camera UNIQ OPTIX for iPhone 15 / iPhone 15
+                        Plus</a
+                      ></span
+                    >
+                    <div class="pk-price">
+                      <span class="price gia-ud">350.000đ</span>
+                      <span class="price gia-goc">390.000đ</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="product-item">
+                  <div class="pk-item-picture">
+                    <a href="">
+                      <img
+                        src="https://shopdunk.com/images/thumbs/0001395_sac-20w-usb-c-power-adapter_240.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="pk-item-info">
+                    <span><a href="">Sạc 20W USB-C Power Adapter </a></span>
+                    <div class="pk-price">
+                      <span class="price gia-ud">350.000đ</span>
+                      <span class="price gia-goc">390.000đ</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="product-item">
+                  <div class="pk-item-picture">
+                    <a href="">
+                      <img
+                        src="https://shopdunk.com/images/thumbs/0021819_op-lung-silicon-magsafe-cho-iphone-15_240.jpeg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="pk-item-info">
+                    <span
+                      ><a href=""
+                        >Ốp Lưng Silicon MagSafe cho iPhone 15</a
+                      ></span
+                    >
+                    <div class="pk-price">
+                      <span class="price gia-ud">1.270.000đ</span>
+                      <span class="price gia-goc">1.590.000đ</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="tab-detail">
+              <ul class="nav-product-detail d-flex justify-content-center">
+                <li class="nav-item">
+                  <a href="" class="nav-link">Mô tả sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">So sánh iPhone</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Thông số kỹ thuật</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Chi tiết sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Hỏi đáp</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- picture-banner -->
+
+    <!-- <div class="picture-banner">
+      <div class="banner-img position-relative">
+        <img src="../img/hero_large_2x.png" alt="" />
+      </div>
+    </div> -->
+
+    <!-- dang ky -->
+    <section class="section-content-1 newletter">
+      <div class="heading-new-letter text-center">
+        Đăng ký nhận tin từ ShopDunk
+      </div>
+      <p class="text-center">
+        Thông tin sản phẩm mới nhất và chương trình khuyến mãi
+      </p>
+      <div class="new-letter-email text-center">
+        <input type="text" placeholder="Email của bạn" />
+        <button>Đăng ký</button>
+      </div>
+    </section>
+    <!-- button-mobile -->
+    <div class="btn-mobile">
+      <ul class="d-flex">
+        <li>
+          <a href="">
+            <img src="../img/IC_home.png" alt="" />
+            <span>Trang Chủ</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="../img/bottom-flash-sale.png" alt="" />
+            <span>Flash Sale</span>
+          </a>
+        </li>
+        <li>
+          <a href=""
+            ><img src="../img/Shop.png" alt="" /><span>Cửa hàng</span></a
+          >
+        </li>
+        <li>
+          <a href=""><img src="../img/News.png" alt="" /></a
+          ><span>Tin tức</span>
+        </li>
+        <li>
+          <a href=""><img src="../img/fixed.png" alt="" /></a
+          ><span>Bảo Hành Apple</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="row">
+            <div class="col-lg-4 col-12">
+              <div class="follow-us">
+                <div class="footer-logo">
+                  <a href=""
+                    ><img
+                      src="https://shopdunk.com/images/thumbs/0012445_Logo_ShopDunk.png"
+                      alt=""
+                  /></a>
+                </div>
+
+                <div class="toppic-block">
+                  <div class="toppic-block-body">
+                    <p class="gt">
+                      Năm 2020, ShopDunk trở thành đại lý ủy quyền của Apple.
+                      Chúng tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple
+                      Mono Store nhằm mang đến trải nghiệm tốt nhất về sản phẩm
+                      và dịch vụ của Apple cho người dùng Việt Nam.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="social">
+                  <ul class="network d-flex">
+                    <li class="face-book">
+                      <a href=""><img src="../img/Face.png" alt="" /></a>
+                    </li>
+                    <li class="youtobe">
+                      <a href=""><img src="../img/Youtube.png" alt="" /></a>
+                    </li>
+                    <li class="zalo">
+                      <a href=""><img src="../img/Zalo.png" alt="" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-12">
+              <div class="footer-2 d-flex">
+                <div class="footer-block infor">
+                  <div class="ft-title">
+                    <strong>Thông tin</strong>
+                  </div>
+                  <ul class="list">
+                    <li><a href="">Tin tức</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Check IMEI</a></li>
+                    <li><a href="">Phương thức thanh toán</a></li>
+                    <li><a href="">Bảo Hành và Sửa Chữa</a></li>
+                    <li><a href="">Tuyển Dụng</a></li>
+                    <li><a href="">Đánh giá chất lượng, khiếu nại</a></li>
+                    <li><a href="">Tra cứu hoá đơn điện tử</a></li>
+                  </ul>
+                </div>
+
+                <div class="footer-block customer-service">
+                  <div class="ft-title">
+                    <strong>Chính Sách</strong>
+                  </div>
+                  <ul class="list">
+                    <li><a href="">Thu cũ đổi mới</a></li>
+                    <li><a href="">Giao hàng</a></li>
+                    <li><a href="">Giao hàng (zalopay)</a></li>
+                    <li><a href="">Huỷ giao dịch</a></li>
+                    <li><a href="">Đổi trả</a></li>
+                    <li><a href="">Bảo hành</a></li>
+                    <li><a href="">Dịch vụ</a></li>
+                    <li><a href="">Giải quyết khiếu nại</a></li>
+                    <li><a href="">Bảo mật thông tin</a></li>
+                    <li><a href="">Hướng dẫn thanh toán qua VNPAY</a></li>
+                  </ul>
+                </div>
+
+                <div class="footer-block my-accout">
+                  <div class="ft-title">
+                    <strong>Địa chỉ và liên hệ</strong>
+                  </div>
+                  <ul class="list">
+                    <li><a href="">Tài khoản của tôi</a></li>
+                    <li><a href="">Đơn đặt hàng</a></li>
+                    <li><a href="">Hệ thống cửa hàng</a></li>
+                    <li><a href="">Tìm store trên map</a></li>
+                    <li class="contact-footer">
+                      <div class="topic-block">
+                        <div class="topic-block-body">
+                          <ul>
+                            <li>
+                              <a href="">Mua hàng: 1900.6626</a>
+                              <ul class="address">
+                                <li>
+                                  <span
+                                    >Nhánh 1: khu vực Hà Nội và các tỉnh phía
+                                    bắc</span
+                                  >
+                                </li>
+                                <li>
+                                  <span
+                                    >Nhánh 2: khu vực Hồ Chí Minh và các tỉnh
+                                    phía nam</span
+                                  >
+                                </li>
+                                <li>
+                                  <span>Nhánh 3: Khiếu nại và góp ý</span>
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a href=""
+                                >Doanh nghiệp:
+                                <span class="sdt">0822.688.668</span></a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="footer-2-mb d-none">
+                <div class="footer-block infor-mb">
+                  <div class="ft-title">
+                    <strong>Thông tin</strong>
+                    <ul class="list d-none">
+                      <li class="list-item"><a href="">Tin tức</a></li>
+                      <li class="list-item"><a href="">Giới thiệu</a></li>
+                      <li class="list-item"><a href="">Check IMEI</a></li>
+                      <li class="list-item">
+                        <a href="">Phương thức thanh toán</a>
+                      </li>
+                      <li class="list-item">
+                        <a href="">Bảo Hành và Sửa Chữa</a>
+                      </li>
+                      <li class="list-item"><a href="">Tuyển Dụng</a></li>
+                      <li class="list-item">
+                        <a href="">Đánh giá chất lượng, khiếu nại</a>
+                      </li>
+                      <li class="list-item">
+                        <a href="">Tra cứu hoá đơn điện tử</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="footer-block customer-service-mb">
+                  <div class="ft-title">
+                    <strong>Chính Sách</strong>
+                    <ul class="list d-none">
+                      <li class="list-item"><a href="">Thu cũ đổi mới</a></li>
+                      <li class="list-item"><a href="">Giao hàng</a></li>
+                      <li class="list-item">
+                        <a href="">Giao hàng (zalopay)</a>
+                      </li>
+                      <li class="list-item"><a href="">Huỷ giao dịch</a></li>
+                      <li class="list-item"><a href="">Đổi trả</a></li>
+                      <li class="list-item"><a href="">Bảo hành</a></li>
+                      <li class="list-item"><a href="">Dịch vụ</a></li>
+                      <li class="list-item">
+                        <a href="">Giải quyết khiếu nại</a>
+                      </li>
+                      <li class="list-item">
+                        <a href="">Bảo mật thông tin</a>
+                      </li>
+                      <li class="list-item">
+                        <a href="">Hướng dẫn thanh toán qua VNPAY</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="footer-block my-accout-mb">
+                  <div class="ft-title">
+                    <strong>Địa chỉ và liên hệ</strong>
+                    <ul class="list d-none">
+                      <li><a href="">Tài khoản của tôi</a></li>
+                      <li><a href="">Đơn đặt hàng</a></li>
+                      <li><a href="">Hệ thống cửa hàng</a></li>
+                      <li><a href="">Tìm store trên map</a></li>
+                      <li class="contact-footer">
+                        <div class="topic-block">
+                          <div class="topic-block-body">
+                            <ul>
+                              <li>
+                                <a href="">Mua hàng: 1900.6626</a>
+                                <ul class="address">
+                                  <li>
+                                    <span
+                                      >Nhánh 1: khu vực Hà Nội và các tỉnh phía
+                                      bắc</span
+                                    >
+                                  </li>
+                                  <li>
+                                    <span
+                                      >Nhánh 2: khu vực Hồ Chí Minh và các tỉnh
+                                      phía nam</span
+                                    >
+                                  </li>
+                                  <li>
+                                    <span>Nhánh 3: Khiếu nại và góp ý</span>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href=""
+                                  >Doanh nghiệp:
+                                  <span class="sdt">0822.688.668</span></a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+      integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".responsive").slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+    <!-- <script>
+      const buyNowButton = document.querySelector(".buy-now");
+      const productImg = document.querySelector(".product-img img");
+      const productName = document.querySelector(".product-name h1");
+      const productPrice = document.querySelector(".product-price span");
+
+      buyNowButton.addEventListener("click", () => {
+        // Tạo một phần tử container để hiển thị thông tin sản phẩm
+        console.log("hello");
+        const productInfoContainer = document.createElement("div");
+        productInfoContainer.classList.add("product-info");
+
+        // Tạo các phần tử để hiển thị hình ảnh, tên và giá sản phẩm
+        const productImage = productImg.cloneNode(true);
+        const productNameElement = document.createElement("h2");
+        productNameElement.textContent = productName.textContent;
+        const productPriceElement = document.createElement("p");
+        productPriceElement.textContent = productPrice.textContent;
+
+        // Thêm các phần tử vào container
+        productInfoContainer.appendChild(productImage);
+        productInfoContainer.appendChild(productNameElement);
+        productInfoContainer.appendChild(productPriceElement);
+
+        // Hiển thị container thông tin sản phẩm
+        document.body.appendChild(productInfoContainer);
+      });
+    </script> -->
+    <script src="./carousel.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

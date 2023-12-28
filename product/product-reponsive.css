@@ -88,6 +88,19 @@
   .newletter {
     margin-bottom: 50px;
   }
+  .nav-product-detail {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    margin-bottom: 66px;
+    /* min-width: 152px; */
+  }
+  .title-phu-kien{
+    text-align: center;
+  }
+  .nav-item {
+    min-width: 152px;
+  }
 }
 @media screen and (min-width: 769px) {
   .footer-block {

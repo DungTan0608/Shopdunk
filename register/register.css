@@ -1,0 +1,276 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  position: fixed;
+  top: 0%;
+  background-color: #515154;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+}
+.header-logo a img {
+  width: 173px;
+  height: 45px;
+}
+
+.menu-item-deckstop:last-child {
+  margin-right: 0;
+}
+.menu-item-deckstop a {
+  display: block;
+  padding: 22px 16px;
+  color: #d2d2d7;
+  font-size: 15px;
+  height: 64px;
+}
+.menu-item-deckstop a:hover {
+  background-color: #626265;
+}
+.header-link-wrapper .menu-link {
+  display: block;
+  padding: 15px;
+  color: #d2d2d7;
+  font-size: 22px;
+}
+.toggle {
+  display: none;
+  padding: 15px;
+  color: #d2d2d7;
+  font-size: 32px;
+  cursor: pointer;
+}
+.menu-mobile {
+  position: absolute;
+  border-bottom: 1px solid #f5f5f7;
+  min-height: 48px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.menu-item-mobile a {
+  display: block;
+  padding: 10px 15px;
+  color: #363637;
+  font-size: 15px;
+  /* height: 64px; */
+  background-color: #fff;
+  /* top: ; */
+}
+.language-mobile {
+  display: none;
+}
+.menu-toggle-mb {
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  border-bottom: 1px solid #f5f5f7;
+  min-height: 48px;
+  top: 48px;
+  box-shadow: 4px 7px 20px;
+  /* left: 50%; */
+  width: 100vw;
+  /* bottom: -65px; */
+  min-height: 48px;
+  z-index: 1000;
+}
+.menu-toggle-mb li {
+  margin: 8px 20px 0 20px;
+}
+.menu-toggle-mb li a {
+  padding: 6px 0;
+  font-size: 15px;
+  line-height: 40px;
+}
+.btn-mobile {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 1111;
+  background-color: #fff;
+  padding: 10px 5px;
+  border-radius: 10px 10px 0px 0px;
+}
+.btn-mobile ul {
+  justify-content: space-around;
+  text-align: center;
+}
+.btn-mobile ul li {
+  text-align: center;
+}
+.btn-mobile ul li a {
+  text-align: center;
+  display: block;
+}
+.btn-mobile ul li a img {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  height: 22px;
+}
+/* section */
+.section-deckstop {
+  margin-top: 64px;
+}
+.section-mobile {
+  margin-top: 112px;
+}
+.login {
+  /* margin-top: 88px; */
+  padding: 40px 15px 160px;
+  /* max-width: 1185px; */
+  width: 100%;
+  display: flex;
+}
+.login-img img {
+  width: 612px;
+  height: 331px;
+}
+.login-form {
+  /* display: flex; */
+  width: 100%;
+  text-align: left;
+  align-items: center;
+}
+.page-title {
+  padding: 16px 0;
+}
+.page-title h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+.inputs {
+  margin-bottom: 15px;
+}
+.inputs label {
+  width: auto;
+  font-size: 15px;
+  line-height: 24px;
+  color: #1d1d1f;
+}
+.inputs input {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ebebeb;
+  padding: 8px 8px 8px 16px;
+  height: 48px;
+  vertical-align: middle;
+  margin: 5px;
+}
+.reversed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reversed input {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+.reversed label {
+  vertical-align: middle;
+}
+.reversed span a {
+  justify-content: right;
+  color: #0066cc;
+}
+.button-login button {
+  width: 100%;
+  border: none;
+  min-height: 48px;
+  color: #fff;
+  background-color: #0066cc;
+  border-radius: 8px;
+  padding: 10px 30px;
+}
+.directional-list li span {
+  padding: 0 5px;
+  font-size: 13px;
+}
+.directional-list li {
+  font-size: 13px;
+}
+.button-forgot {
+  margin-top: 16px;
+}
+.button-forgot a {
+  color: #0066cc;
+}
+/* footer */
+footer {
+  background-color: #1d1d1f;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+.footer-top {
+  padding: 64px 0px 21px;
+}
+.footer-logo a img {
+  width: 173px;
+  height: 45px;
+}
+.infor,
+.customer-service,
+.my-accout {
+  padding-left: 60px;
+}
+.gt {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #d2d2d7;
+  padding: 8px 0px;
+}
+.footer-block:first-child {
+  width: 30%;
+}
+.list li a {
+  color: #86868b;
+  font-size: 13px;
+}
+.ft-title {
+  margin-bottom: 15px;
+}
+.ft-title strong {
+  color: #86868b;
+}
+.my-accout,
+.infor {
+  width: 25%;
+}
+.customer-service {
+  width: 20%;
+}
+.seven {
+  position: relative;
+}
+.seven .child-menu {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  background-color: #515154;
+  width: 250%;
+}
+.seven:hover .child-menu {
+  display: block;
+}
+.section-mobile {
+  display: none;
+}
+.directional {
+  margin-top: 64px;
+  padding: 8px 10px;
+}
